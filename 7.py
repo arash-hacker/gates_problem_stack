@@ -1,7 +1,7 @@
 import re
 is_number=re.compile(r"[0-9]+$")
-f=open("./7.txt","r")
-ff=open("./7.txt","r")
+f=open("./gates.txt","r")
+ff=open("./gates.txt","r")
 l={}
 operations=["RSHIFT","LSHIFT","AND","OR","SET","NOT"]
 
